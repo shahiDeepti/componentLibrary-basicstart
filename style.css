@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
 
 :root{
---primary-color: green;
+--primary-color:#10b981;
+--light-green: #d1fae5;
 }
 body{
-    font-family: 'Arvo', serif;
-    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
+    
 }
-.center-container{
+.container-center{
     max-width: 600px;
     margin:auto ;
 }
@@ -77,15 +80,16 @@ display: block;
 }
 .section{
     padding: 2rem;
-    
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem 0rem;
 
 }
 .section h1{
    text-align:center ;
 }
 .offWhite{
-    background-color:antiquewhite;
-
+    background-color: var(--light-green);
 }
 .footer{
     background-color: var(--primary-color);
