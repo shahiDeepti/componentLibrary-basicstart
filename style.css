@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+:root{
+--primary-color: green;
+}
+body{
+    font-family: 'Arvo', serif;
+    margin: 0px;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.center-container{
+    max-width: 600px;
+    margin:auto ;
+}
+
+.links{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    
+}
+.primary-links{
+   background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+}
+.secondary-links{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    
+}
+.list-non-bullet{
+list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+ 
+.navigation{
+    background-color:  var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius:1rem ;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: medium;
+}
+.navigation .links{
+    color:black;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.header{
+    padding: 2rem;
+    padding-top: 5rem; 
+}
+.header .header-img{
+margin: auto;
+max-width: 350px;
+display: block;
+}
+.header .header-heading{
+    color:grey;
+    padding-top: 1rem;
+    text-align: center;
+}
+.section{
+    padding: 2rem;
+    
+
+}
+.section h1{
+   text-align:center ;
+}
+.offWhite{
+    background-color:antiquewhite;
+
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:black;
+    border-top-right-radius: 1rem;
+    /* padding-top: 5rem; */
+}
+.footer .links{
+    color: black;
+}
+.footer .footer-header{
+ font-weight: bold;
+ font-size: large;   
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
